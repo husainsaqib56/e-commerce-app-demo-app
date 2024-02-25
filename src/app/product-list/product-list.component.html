@@ -1,17 +1,15 @@
 <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="product-card">
-          <img src="https://via.placeholder.com/300" alt="Product Image">
-          <div class="product-card-body">
-            <div class="product-title">Product Name</div>
-            <div class="product-price">$99.99</div>
-            <button class="btn btn-buy">Buy Now</button>
-          </div>
+  <div class="row">
+    <div class="col-md-4 mb-4" *ngFor="let item of products?.products">
+      <div class="product-card">
+        <img [src]="item.imageUrl" [alt]="item.cardTitle" />
+        <div class="product-card-body">
+          <div class="product-title">{{ item.cardTitle }}</div>
+          <div class="product-subtitle">{{ item.cardText }}</div>
+          <div class="product-price">${{ item.price }}</div>
+          <button class="btn btn-buy" (click)="onAddCart(item)">Add to Cart</button>
         </div>
       </div>
-  
-      <!-- Add more product cards as needed -->
-  
     </div>
   </div>
+</div>

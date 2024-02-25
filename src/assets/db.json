@@ -1,0 +1,62 @@
+{
+  "products": [
+    {
+      "id": "1huui1",
+      "imageUrl": "https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png",
+      "cardTitle": "Vans Sk8-Hi MTE Shoes",
+      "cardSubtitle": "Style: VA33TXRJ5",
+      "cardText": "The Vans All-Weather MTE Collection features footwear and apparel designed.",
+      "price": 125,
+      "quantity": 1,
+      "totalPrice":125
+    },
+    {
+      "id": "1huui2",
+      "imageUrl": "https://m.media-amazon.com/images/I/91PQ-g3YAHL._AC_UL480_FMwebp_QL65_.jpg",
+      "cardTitle": "Vans Sk8-Hi MTE Shoes",
+      "cardSubtitle": "Style: VA33TXRJ5",
+      "cardText": "The Vans All-Weather MTE Collection features footwear and apparel designed.",
+      "price": 125,
+      "quantity": 1,
+      "totalPrice":125
+    },
+    {
+      "id": "1huui3",
+      "imageUrl": "https://m.media-amazon.com/images/I/715bg8a143L._AC_UL480_FMwebp_QL65_.jpg",
+      "cardTitle": "Vans Sk8-Hi MTE Shoes",
+      "cardSubtitle": "Style: VA33TXRJ5",
+      "cardText": "The Vans All-Weather MTE Collection features footwear and apparel designed.",
+      "price": 125,
+      "quantity": 1,
+      "totalPrice":125
+    },
+    {
+      "id": "1huui4",
+      "imageUrl": "https://m.media-amazon.com/images/I/713E2v4IV9L._AC_UL480_FMwebp_QL65_.jpg",
+      "cardTitle": "Vans Sk8-Hi MTE Shoes",
+      "cardSubtitle": "Style: VA33TXRJ5",
+      "cardText": "The Vans All-Weather MTE Collection features footwear and apparel designed.",
+      "price": 125,
+      "quantity": 1,
+      "totalPrice":125
+    },
+    {
+      "id": "1huui5",
+      "imageUrl": "https://m.media-amazon.com/images/I/61q5gTyVirL._AC_UL480_FMwebp_QL65_.jpg",
+      "cardTitle": "Bruno Marc Men's Leather Lined Dress Oxfords Shoes",
+      "cardSubtitle": "Wood | Leather | LaceUp",
+      "cardText": "The Vans All-Weather MTE Collection features footwear and apparel designed.",
+      "price": 125,
+      "quantity": 1,
+      "totalPrice":125
+    }
+  ],
+  "cart": [
+    {
+      "productID": "1huui5",
+      "productName": "Vans Sk8-Hi MTE Shoes",
+      "productQuantity": 1,
+      "productPrice": 300
+    }
+  ]
+}

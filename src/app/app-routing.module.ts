@@ -5,12 +5,12 @@ import { CheckoutComponent } from './checkout/checkout.component';
 
 const routes: Routes = [
 
-  {
-    path:'', component: ProductListComponent
-  },
-  {
-    path:'cart', component:CheckoutComponent
-  }
+  // {
+  //   path:'', component: ProductListComponent
+  // },
+  // {
+  //   path:'cart', component:CheckoutComponent
+  // }
 ];
 
 @NgModule({
