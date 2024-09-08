@@ -28,11 +28,14 @@ export class ProductListComponent implements OnInit {
     console.log(item, 'items added');
     this.api.addCart.next(item);
     this.productsAddtoCart.push(item);
-    localStorage.setItem('productsToCart',JSON.stringify(this.productsAddtoCart));
-  //   const arr = [];
-  //   arr.push(item);
-  //  JSON.parse(localStorage.getItem('itemValue')) || [];
-  //   localStorage.setItem(JSON.stringify('itemValue', arr) || []);
+    localStorage.setItem(
+      'productsToCart',
+      JSON.stringify(this.productsAddtoCart)
+    );
+    //   const arr = [];
+    //   arr.push(item);
+    //  JSON.parse(localStorage.getItem('itemValue')) || [];
+    //   localStorage.setItem(JSON.stringify('itemValue', arr) || []);
     //  localStorage.setItem('itemValue', this.productsAddtoCart.push(item));
     this.toastr.success('Hello world!', 'Toastr fun!');
   }
